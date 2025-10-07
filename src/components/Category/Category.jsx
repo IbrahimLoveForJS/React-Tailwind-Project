@@ -2,7 +2,7 @@ import Heading from "../Heading/Heading";
 import FruitsCat from "../../assets/fruits-and-veggies.png";
 import DairyCat from "../../assets/dairy-and-eggs.png";
 import SeaFoodCat from "../../assets/meat-and-seafood.png";
-import Button from "../Button/button";
+import Button from "../Button/Button";
 
 function Category() {
   const renderCards = category.map(({ id, title, description, image }) => {
