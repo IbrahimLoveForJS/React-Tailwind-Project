@@ -37,7 +37,7 @@ function Process() {
   );
 
   return (
-    <section>
+    <section id="process">
       <div className="max-w-[1200px] mx-auto px-10 py-20">
         <div className="w-fit mr-auto">
           <Heading highlight="Our" heading="Process" />

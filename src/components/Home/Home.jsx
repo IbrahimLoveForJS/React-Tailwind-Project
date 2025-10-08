@@ -10,7 +10,7 @@ import Values from "../Values";
 
 function Home() {
   return (
-    <div>
+    <div id="home">
       <Hero />
       <Category />
       <Values />

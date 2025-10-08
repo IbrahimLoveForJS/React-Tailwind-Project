@@ -33,7 +33,7 @@ function Category() {
   });
 
   return (
-    <section>
+    <section id="category">
       <div className="max-w-[1200px] mx-auto px-10 py-20">
         <Heading highlight="Shop" heading="by Category" />
         {/* Category Cards */}

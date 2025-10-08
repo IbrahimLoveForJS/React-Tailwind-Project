@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+* {
+    scroll-margin-top: 100px;
+}
+/* * {
+    background-color: red
+} */
+
+
+div {
+    scroll-margin-top: 100px;
+}
+
+footer {
+    scroll-margin-top: 100px;
+}

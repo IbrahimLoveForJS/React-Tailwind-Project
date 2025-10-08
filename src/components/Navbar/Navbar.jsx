@@ -29,21 +29,21 @@ function Navbar() {
         {/* Desktop Menu */}
         <ul className="md:flex items-center gap-x-15 hidden">
           <li>
-            <a className="font-semibold tracking-wider text-orange-500">Home</a>
+            <a className="font-semibold tracking-wider text-orange-500" href="#home">Home</a>
           </li>
           <li>
-            <a className="font-semibold tracking-wider hover:text-orange-500">
-              About Us
+            <a className="font-semibold tracking-wider hover:text-orange-500" href="#products">
+              Products
             </a>
           </li>
           <li>
-            <a className="font-semibold tracking-wider hover:text-orange-500">
+            <a className="font-semibold tracking-wider hover:text-orange-500" href="#process">
               Process
             </a>
           </li>
           <li>
-            <a className="font-semibold tracking-wider hover:text-orange-500">
-              Contact Us
+            <a className="font-semibold tracking-wider hover:text-orange-500" href="#category">
+              Categories
             </a>
           </li>
         </ul>

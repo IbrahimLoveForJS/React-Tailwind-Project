@@ -29,7 +29,7 @@ function Products() {
     });
 
   return (
-    <section>
+    <section id="products">
       <div className="max-w-[1200px] mx-auto px-10 py-20">
         <Heading highlight="Our" heading="Products" />
 
