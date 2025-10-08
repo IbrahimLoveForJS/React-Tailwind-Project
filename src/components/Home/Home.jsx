@@ -9,17 +9,17 @@ import Testimonials from "../Testimonials/Testimonials";
 import Values from "../Values";
 
 function Home() {
-  return <div>
-    <Navbar />
-    <Hero />
-    <Category />
-    <Values />
-    <Products />
-    <Discount />
-    <Process />
-    <Testimonials />
-    <Footer />
-  </div>;
+  return (
+    <div>
+      <Hero />
+      <Category />
+      <Values />
+      <Products />
+      <Discount />
+      <Process />
+      <Testimonials />
+    </div>
+  );
 }
 
 export default Home;

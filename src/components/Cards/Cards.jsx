@@ -1,7 +1,7 @@
 import { FaHeart, FaPlus } from "react-icons/fa";
 import Button from "../Button/Button";
 
-function Cards({image, price, title, category}) {
+function Cards({image, price, title}) {
   return (
     <div className="bg-zinc-100 p-4 rounded-xl">
       {/* Card icons */}
