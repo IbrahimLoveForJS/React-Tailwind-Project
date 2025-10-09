@@ -86,21 +86,21 @@ function Navbar() {
           } transform -translate-x-1/2`}
         >
           <li>
-            <a className="font-semibold tracking-wider text-orange-500">Home</a>
+            <a className="font-semibold tracking-wider text-orange-500" href='#home'>Home</a>
           </li>
           <li>
-            <a className="font-semibold tracking-wider hover:text-orange-500">
-              About Us
+            <a className="font-semibold tracking-wider hover:text-orange-500" href="#products">
+              Products
             </a>
           </li>
           <li>
-            <a className="font-semibold tracking-wider hover:text-orange-500">
+            <a className="font-semibold tracking-wider hover:text-orange-500" href="#process">
               Process
             </a>
           </li>
           <li>
-            <a className="font-semibold tracking-wider hover:text-orange-500">
-              Contact Us
+            <a className="font-semibold tracking-wider hover:text-orange-500" href="#category">
+              Categories
             </a>
           </li>
           <li className="flex items-center p-1 border-2 border-orange-500 rounded-full md:hidden">
